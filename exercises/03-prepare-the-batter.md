@@ -37,7 +37,7 @@ This 20-second AI-generated demonstration illustrates folding and the stopping p
 
 Some Markdown viewers, including GitHub, may strip the player or its caption track. Download the video and caption file together, keeping their matching basenames, and open them in a player that supports WebVTT.
 
-**Transcript:** Fold just until the dry streaks disappears. A few small lumps are fine.
+**Transcript:** Slide the spatula down the side of the bowl, scoop underneath, and fold the batter over itself. Turn the bowl and repeat gently, scraping the bottom to catch dry flour. Stop when the dry streaks disappear. A few small lumps are fine.
 
 [Video provenance and verification](../resources/video-verification.md).
 
