@@ -15,6 +15,22 @@ Before heating, position a rack in the middle and remove anything stored in the 
 
 Lightly grease the 20 cm (8 inch) round pan. Line its bottom with a circle of baking parchment and lightly grease the paper. Do not use wax paper.
 
+### Watch the demonstration
+
+This 20-second AI-generated illustration supports the technique above; it is not a recording of a tested bake.
+
+<video controls preload="metadata" poster="../assets/preheat-the-oven.png" width="100%">
+  <source src="../assets/preheat-the-oven.mp4" type="video/mp4">
+  <track kind="captions" src="../assets/preheat-the-oven.en.vtt" srclang="en" label="English" default>
+  Your viewer does not support embedded video. Use the links below.
+</video>
+
+[Watch or download](../assets/preheat-the-oven.mp4) · [English captions](../assets/preheat-the-oven.en.vtt) · [Poster](../assets/preheat-the-oven.png) · [Transcript](../assets/preheat-the-oven.transcript.txt)
+
+**Transcript:** Set a conventional oven to 175 degrees Celsius or 350 Fahrenheit. While it warms, lightly grease your pan, line the bottom with baking parchment, and grease the paper. Wait for the oven's ready indicator before baking.
+
+Some Markdown viewers may strip the player or caption track. Download the video and matching caption file together for a WebVTT-capable player. [Media verification notes](../resources/video-verification.md).
+
 ## Prepare a safe workspace
 
 Put dry oven mitts and a heat-safe landing spot nearby. Keep towels and packaging away from the oven. Wash your hands and clear the counter.

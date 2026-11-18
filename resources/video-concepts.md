@@ -1,6 +1,6 @@
 # Illustrative video concepts
 
-A first generated demonstration is supplied for [Prepare the batter](../exercises/03-prepare-the-batter.md). The other entries remain production concepts. Generated media is illustrative, not evidence of a test bake. Captions are supplied separately from the bitmap.
+All six exercise demonstrations have now been generated; see [media verification](video-verification.md) for current assets and limitations. The briefs below remain early design concepts, not exact shot descriptions or evidence of a test bake. Captions are separate from the bitmap.
 
 ## Know when to stop mixing
 

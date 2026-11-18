@@ -33,7 +33,7 @@ This 20-second AI-generated demonstration illustrates folding and the stopping p
   Your viewer does not support embedded video. Use the links below.
 </video>
 
-[Watch or download the video](../assets/prepare-the-batter.mp4) · [English captions](../assets/prepare-the-batter.en.vtt) · [Poster](../assets/prepare-the-batter.png)
+[Watch or download the video](../assets/prepare-the-batter.mp4) · [English captions](../assets/prepare-the-batter.en.vtt) · [Poster](../assets/prepare-the-batter.png) · [Transcript](../assets/prepare-the-batter.transcript.txt)
 
 Some Markdown viewers, including GitHub, may strip the player or its caption track. Download the video and caption file together, keeping their matching basenames, and open them in a player that supports WebVTT.
 

@@ -19,6 +19,22 @@ Use the ready-made vanilla frosting and optional sprinkles from your ingredient 
 
 Place the cake on a plate. Spread a thin layer of frosting across the top with a spatula, working gently to avoid tearing it. Add more until covered, using roughly 200 g or as much as you prefer. Add your chosen decoration.
 
+### Watch the demonstration
+
+This 20-second AI-generated illustration supports the technique above; it is not a recording of a tested bake.
+
+<video controls preload="metadata" poster="../assets/decorate-the-cake.png" width="100%">
+  <source src="../assets/decorate-the-cake.mp4" type="video/mp4">
+  <track kind="captions" src="../assets/decorate-the-cake.en.vtt" srclang="en" label="English" default>
+  Your viewer does not support embedded video. Use the links below.
+</video>
+
+[Watch or download](../assets/decorate-the-cake.mp4) · [English captions](../assets/decorate-the-cake.en.vtt) · [Poster](../assets/decorate-the-cake.png) · [Transcript](../assets/decorate-the-cake.transcript.txt)
+
+**Transcript:** Make sure your cake is completely cool before adding frosting. Spread a thin layer gently across the top, turning the plate as you work. Add a little more where needed, then finish with a simple swirl or a few sprinkles.
+
+Some Markdown viewers may strip the player or caption track. Download the video and matching caption file together for a WebVTT-capable player. [Media verification notes](../resources/video-verification.md).
+
 ## Share your result
 
 Describe your finish to your agent, or optionally share a photo. A photo is not required. Explain one choice you made. Keep the cake stored according to the frosting label until serving.
