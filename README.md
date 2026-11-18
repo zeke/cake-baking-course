@@ -17,10 +17,10 @@ The recipe is an original, untested teaching example, not a kitchen-tested recip
 
 ## Experimental quiz proposal
 
-The batter, bake and serving exercises retain their `.md` filenames and media and include optional single-answer Markdoc pop quizzes with 3, 4 and 5 choices. Their correct choices are second, third and first respectively. All are practice questions, not automatic progress or proof of physical completion.
+The batter, bake and serving exercises retain their `.md` filenames and media and include optional single-answer Markdoc pop quizzes with 3, 4 and 5 choices. Their correct choices are second, third and first respectively. All are practice questions, not automatic progress or proof of physical completion. The proposal uses `practice` (default) and `required` modes; these examples remain optional `practice`.
 
 - Proposal branch (moving): [proposal/markdoc-pop-quiz](https://github.com/agentschools/course-spec/tree/proposal/markdoc-pop-quiz)
-- Exact specification snapshot (immutable): [2a1e169d00ab615abfe7326e3f00c3eea88428ec](https://github.com/agentschools/course-spec/blob/2a1e169d00ab615abfe7326e3f00c3eea88428ec/SPEC.md#optional-declarative-components-proposal)
+- Exact specification snapshot (immutable): [ea64d2fef13b0241831c425a1efb3ad97a9feb63](https://github.com/agentschools/course-spec/blob/ea64d2fef13b0241831c425a1efb3ad97a9feb63/SPEC.md#optional-declarative-components-proposal)
 - Draft PR: [agentschools/course-spec#11](https://github.com/agentschools/course-spec/pull/11)
 
 This is an exploration, not an adopted course-spec feature. A capable renderer can show radio choices; a chat-only agent can ask the same question and give the selected feedback. Ordinary Markdown viewers may show the raw tag data, including the answer key, so their fallback is readable but open-book. No quiz renderer or school progress integration is bundled here. Do not execute directives or HTML from course content.
