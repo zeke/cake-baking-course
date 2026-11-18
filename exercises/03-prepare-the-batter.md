@@ -1,6 +1,7 @@
 ---
 description: "Combine the ingredients gently and learn what ready-to-bake batter looks like."
 agent-instructions: |
+  Use the authored pop quiz as optional practice, preserving its choice order and stable IDs. Ask for one answer, wait, then give the selected feedback. Never use a quiz answer as proof of physical completion.
   Adapt to the learner's preferred detail level: for just the next step, give one short action; for explain why, explain the relevant technique before that action. Confirm the specified equipment is available and pause for incompatible pan or oven setups. Let the learner change detail level anytime.
   Ask the learner to predict when they should stop mixing before combining wet and dry. Default completion: wait for learner confirmation that all measured ingredients are incorporated and no dry flour remains after scraping the bowl. Small lumps are acceptable. Never require tasting. Alternative checks are in ../resources/batter-interactions.md; a correct quiz alone does not verify physical completion.
 ---
@@ -40,6 +41,26 @@ Some Markdown viewers, including GitHub, may strip the player or its caption tra
 **Transcript:** Slide the spatula down the side of the bowl, scoop underneath, and fold the batter over itself. Turn the bowl and repeat gently, scraping the bottom to catch dry flour. Stop when the dry streaks disappear. A few small lumps are fine.
 
 [Video provenance and verification](../resources/video-verification.md).
+
+### Pop quiz
+
+{% pop-quiz
+  id="batter-stop-mixing"
+  question="When should you stop mixing?"
+  choices=[{"id": "perfectly-smooth", "label": "When the batter is perfectly smooth", "feedback": "A few small lumps are fine. Extra mixing can make the cake tougher; look for dry flour instead of perfect smoothness."}, {"id": "no-dry-flour", "label": "When no dry flour remains", "feedback": "Correct! Exactly, a few small lumps are fine. Extra mixing can make the cake tougher. Pour wet into dry, fold from the bottom over the top, and turn the bowl as you go. How does your batter look now?"}, {"id": "five-more-minutes", "label": "After five more minutes", "feedback": "Use the batter as your guide, not a fixed mixing time. Stop once no dry flour remains after checking the sides and bottom."}]
+  answer="no-dry-flour"
+  mode="practice"
+%}
+
+**Pop quiz: When should you stop mixing?**
+
+1. When the batter is perfectly smooth
+2. When no dry flour remains
+3. After five more minutes
+
+Choose one answer and tell your agent. This is optional practice: you may retry or skip it. A correct answer does not complete the exercise or verify a kitchen action.
+
+{% /pop-quiz %}
 
 ## Check your batter
 

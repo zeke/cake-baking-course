@@ -1,6 +1,7 @@
 ---
 description: "Bake the batter and check the center before cooling your cake."
 agent-instructions: |
+  Use the authored pop quiz as optional practice, preserving its choice order and stable IDs. Ask for one answer, wait, then give the selected feedback. Never use a quiz answer as proof of physical completion.
   Adapt to the learner's preferred detail level: for just the next step, give one short action; for explain why, explain the relevant technique before that action. Confirm the specified equipment is available and pause for incompatible pan or oven setups. Let the learner change detail level anytime.
   Wait for the learner to report a set center, a skewer without wet batter, and the cake removed safely to cool. Timing alone is not completion. Explain that the proposed time is untested; if it browns while the center remains wet, help troubleshoot rather than declaring it done.
 ---
@@ -30,6 +31,27 @@ This 20-second AI-generated illustration supports the technique above; it is not
 **Transcript:** The timer is a reminder to check, not proof the cake is done. Insert a thin skewer into the center and pull it straight out. It should have no wet batter. Use dry oven mitts and let the cake cool before frosting.
 
 Some Markdown viewers may strip the player or caption track. Download the video and matching caption file together for a WebVTT-capable player. [Media verification notes](../resources/video-verification.md).
+
+### Pop quiz
+
+{% pop-quiz
+  id="bake-readiness"
+  question="How do you know the cake is ready?"
+  choices=[{"id": "timer-rang", "label": "The timer rang", "feedback": "The timer tells you when to check, not whether the cake is done. Check the center and test with a skewer."}, {"id": "golden-top", "label": "The top looks golden", "feedback": "Color alone does not tell you whether the center is baked. Check the center and use a skewer."}, {"id": "center-set-skewer-clean", "label": "The center is set and a skewer comes out clean.", "feedback": "Correct! Exactly. A few moist crumbs are fine. If the skewer has wet batter, give it another 3–5 minutes and check again."}, {"id": "risen-above-pan", "label": "The cake has risen above the edge of the pan", "feedback": "Height is not a doneness test. Look for a set center and a skewer without wet batter."}]
+  answer="center-set-skewer-clean"
+  mode="practice"
+%}
+
+**Pop quiz: How do you know the cake is ready?**
+
+1. The timer rang
+2. The top looks golden
+3. The center is set and a skewer comes out clean.
+4. The cake has risen above the edge of the pan
+
+Choose one answer and tell your agent. This is optional practice: you may retry or skip it. A correct answer does not complete the exercise or verify a kitchen action.
+
+{% /pop-quiz %}
 
 ## Cool safely
 

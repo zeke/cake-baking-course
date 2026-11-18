@@ -13,4 +13,4 @@ Turn a few everyday ingredients into a single-layer vanilla cake for about eight
 
 You do the baking. Your agent explains one stage at a time and waits for your observations before moving on. Ask for “just the next step” or “explain why” at any point. Use the default course interview to establish your preferred detail level and kitchen setup; the agent should verify the required pan and oven before you begin.
 
-This private course is an experimental teaching draft. The original recipe has not been test-baked. For real use, validate the recipe first. Read the [safety and validation notes](resources/validation.md).
+This public course is an experimental teaching draft. The original recipe has not been test-baked. For real use, validate the recipe first. Read the [safety and validation notes](resources/validation.md).

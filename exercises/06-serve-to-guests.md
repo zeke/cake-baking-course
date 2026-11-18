@@ -1,6 +1,7 @@
 ---
 description: "Share the cake and reflect on what you will try next time."
 agent-instructions: |
+  Use the authored pop quiz as optional practice, preserving its choice order and stable IDs. Ask for one answer, wait, then give the selected feedback. Never use a quiz answer as proof of physical completion.
   Adapt to the learner's preferred detail level: for just the next step, give one short action; for explain why, explain the relevant technique before that action. Confirm the specified equipment is available and pause for incompatible pan or oven setups. Let the learner change detail level anytime.
   Check learner reports serving or preparing the cake for serving, communicating ingredients/allergens and storage needs. Ask one brief reflection. Offer kitchen cleanup without blocking completion. Never imply guests ate it without learner confirmation.
 ---
@@ -30,6 +31,28 @@ This 20-second AI-generated illustration supports the technique above; it is not
 **Transcript:** Check your guests' allergies before offering cake, and mention the wheat, eggs, milk, and frosting ingredients. Cut small wedges with a clean knife, then lift each slice onto a plate. Cover any leftovers, and follow the frosting label's storage instructions.
 
 Some Markdown viewers may strip the player or caption track. Download the video and matching caption file together for a WebVTT-capable player. [Media verification notes](../resources/video-verification.md).
+
+### Pop quiz
+
+{% pop-quiz
+  id="serve-allergies"
+  question="What should you check before serving?"
+  choices=[{"id": "allergies-and-labels", "label": "Guests’ allergies and all ingredient labels", "feedback": "Correct! Check guests’ allergies and every ingredient label, including frosting and decorations. If you cannot confirm an ingredient is safe for a guest, do not promise it is."}, {"id": "nuts-only", "label": "Only whether the cake contains nuts", "feedback": "Nuts are not the only allergen. This cake contains wheat, eggs and milk, and the frosting or decorations may contain others."}, {"id": "small-slice-for-everyone", "label": "Nothing, everyone can have a small slice", "feedback": "A small portion is not an allergy safeguard. Check guests’ allergies and all ingredient labels first."}, {"id": "frosting-looks-fresh", "label": "Only whether the frosting looks fresh", "feedback": "Appearance does not identify allergens. Read all ingredient labels and check guests’ allergies."}, {"id": "eaten-cake-before", "label": "Whether guests have eaten cake before", "feedback": "Previous experience with cake does not tell you whether these ingredients are safe for a guest. Check allergies and labels."}]
+  answer="allergies-and-labels"
+  mode="practice"
+%}
+
+**Pop quiz: What should you check before serving?**
+
+1. Guests’ allergies and all ingredient labels
+2. Only whether the cake contains nuts
+3. Nothing, everyone can have a small slice
+4. Only whether the frosting looks fresh
+5. Whether guests have eaten cake before
+
+Choose one answer and tell your agent. This is optional practice: you may retry or skip it. A correct answer does not complete the exercise or verify a kitchen action.
+
+{% /pop-quiz %}
 
 ## Reflect
 

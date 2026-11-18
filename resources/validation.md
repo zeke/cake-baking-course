@@ -16,4 +16,4 @@ Use dry oven mitts and a heat-safe landing spot. Keep children supervised near h
 - [Canonical spec](https://github.com/agentschools/course-spec/blob/main/SPEC.md)
 - [Reference lesson](https://github.com/agentschools/cfdev.school/blob/main/courses/fundamentals/workers/exercises/01-deploy-a-worker.md)
 
-Private repositories are not currently supported as hosted courses by the specification. This draft is for authenticated review and experiments, not a verified public enrollment endpoint.
+The owner has made this example public. School enrollment and optional Markdoc quiz rendering have not been tested. The three quizzes use the unmerged proposal pinned in README.md, not an adopted requirement of canonical main.

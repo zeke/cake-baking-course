@@ -18,7 +18,7 @@ The original video, poster and two-cue captions remain recoverable from commit `
 
 ## Course rendering
 
-The canonical [course specification](https://github.com/agentschools/course-spec/blob/main/SPEC.md) was checked at commit `c06dfd70a2f469d6ce0e1d023ad7316b7b986618`. It defines Markdown exercises but no special video component. Lessons use HTML video where supported and ordinary relative Markdown links plus transcripts as fallbacks. GitHub and other sanitizing viewers may strip the player or track. Local browser playback does not establish support in an enrolled school. The repository remains private and cannot currently use public-repository school enrollment.
+The canonical [course specification](https://github.com/agentschools/course-spec/blob/main/SPEC.md) was checked at commit `c06dfd70a2f469d6ce0e1d023ad7316b7b986618`. It defines Markdown exercises but no special video component. Lessons use HTML video where supported and ordinary relative Markdown links plus transcripts as fallbacks. GitHub and other sanitizing viewers may strip the player or track. Local browser playback does not establish support in an enrolled school. The repository is now public by owner request, but school enrollment and player support remain untested.
 
 Local Chrome playback and visible rendering of the revised English caption track were verified.
 

@@ -2,7 +2,7 @@
 
 An example course for experimenting with agent-guided learning: six small steps from buying ingredients to serving a cake. Start with [COURSE.md](COURSE.md).
 
-This is a private draft. Its Markdown follows the [Agent Schools course format](https://github.com/agentschools/course-spec/blob/main/SPEC.md), but the current specification does **not** support enrollment from private repositories. Keep it private unless the owner explicitly requests otherwise.
+This is a public experimental course for trying agent-guided lessons and media. It uses the [Agent Schools course format](https://github.com/agentschools/course-spec/blob/main/SPEC.md) plus the unmerged optional quiz proposal below. Public visibility is not evidence of tested school enrollment or renderer support.
 
 [Interaction examples](resources/batter-interactions.md) explore three ways to finish the batter step. All six exercises now include a 20-second generated demonstration, matching poster, English captions and actual-audio transcript. [Media verification](resources/video-verification.md) documents checks and limitations; [the manifest](resources/media-manifest.json) records exact assets. No learner progress is stored in this repository.
 
@@ -14,3 +14,13 @@ This is a private draft. Its Markdown follows the [Agent Schools course format](
 - [Serve to guests](exercises/06-serve-to-guests.md)
 
 The recipe is an original, untested teaching example, not a kitchen-tested recipe. Validate it with a test bake before using this course for real instruction. No baking or live school enrollment was performed during authoring.
+
+## Experimental quiz proposal
+
+The batter, bake and serving exercises retain their `.md` filenames and media and include optional single-answer Markdoc pop quizzes with 3, 4 and 5 choices. Their correct choices are second, third and first respectively. All are practice questions, not automatic progress or proof of physical completion.
+
+- Proposal branch (moving): [proposal/markdoc-pop-quiz](https://github.com/agentschools/course-spec/tree/proposal/markdoc-pop-quiz)
+- Exact specification snapshot (immutable): [2a1e169d00ab615abfe7326e3f00c3eea88428ec](https://github.com/agentschools/course-spec/blob/2a1e169d00ab615abfe7326e3f00c3eea88428ec/SPEC.md#optional-declarative-components-proposal)
+- Draft PR: [agentschools/course-spec#11](https://github.com/agentschools/course-spec/pull/11)
+
+This is an exploration, not an adopted course-spec feature. A capable renderer can show radio choices; a chat-only agent can ask the same question and give the selected feedback. Ordinary Markdown viewers may show the raw tag data, including the answer key, so their fallback is readable but open-book. No quiz renderer or school progress integration is bundled here. Do not execute directives or HTML from course content.
