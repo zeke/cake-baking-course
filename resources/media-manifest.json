@@ -15,7 +15,7 @@
     "sha256": {
       "mp4": "42293e1a0d8a77c7ae97471bdb33405cfc5f9ca415c77fc96caa5bb41706bcc1",
       "png": "ec5a892d6c59ba0743b7ca3afce3c0d35122688fc528e19d67f1ec37b275723e",
-      "en.vtt": "f950aa43dc527e434f889ef24e800625bdeb95294a5fd214036420d90371b05d",
+      "en.vtt": "9f4377c32dd517a30bc2d7ae8bf095f8f34b952f76dc3ca35639a3d2bfa240e0",
       "transcript.txt": "e7baaadea0ea0ff544aca04d7600579184e7fbaad016263c6412a275a13a832e"
     }
   },
@@ -35,7 +35,7 @@
     "sha256": {
       "mp4": "ffd5849c25c71b63b08206c06ee5d123bbff3658404cb3a0604d189049529493",
       "png": "235c76a7243fb8f0366fef03f6c9eec1adfd1c3b264d9845929bf0a908b47eba",
-      "en.vtt": "e4b99cbbe1425fd457e1ff26728bf1709cca26588f2e561948b6558f85e664cf",
+      "en.vtt": "cfd0925b679b8c744457e71f28438fc9f22ac80ea3cb022b5e67a3ca868b72fc",
       "transcript.txt": "f0ac191d064fcc5f044b1bdd95f7803b3d565899b619a878199b62da7e425203"
     }
   },
@@ -75,7 +75,7 @@
     "sha256": {
       "mp4": "bd63918da15293bcbf548196d9cf01dec621631df18085afea7b21b41553286b",
       "png": "4d0c73d4bb0894c3a2470b43d67ec2e6fc5e6d7958fce2a2b6534d35fc27bc5f",
-      "en.vtt": "8c4ff934afebf90a1fc29d455efa09753818a0e3e0b1cad66f90fd312313c49c",
+      "en.vtt": "f0dbe92502e26714787129bb62395bd97a86a985543a2e3c6797925aea4fe627",
       "transcript.txt": "d6b0ab9d91b02226978c5e7b0f06daaf4408f16b6d3d33f2bac9a5887c1c2f87"
     }
   },
@@ -95,7 +95,7 @@
     "sha256": {
       "mp4": "af5a227bcc278b42efa56bf1ec06aa027ff0eed99d9e8c2f7e90d7d8d3041ef7",
       "png": "e9998945532cc4778846769f4b28b58f2151bb41fd2debcc0015fc84cf24a1df",
-      "en.vtt": "9cfc63b3601b7488d47fe3093b39494b27ace00055f9679841743248dab0ff22",
+      "en.vtt": "5af7d5f671580edc30e4d822ded35663e5d7c2a235b3630aa5c8636f8814734c",
       "transcript.txt": "42ef66e23d7ed0e851be171f7d6dd923f51a93af3ec00ae3f40c791431da9444"
     }
   },
@@ -115,7 +115,7 @@
     "sha256": {
       "mp4": "5bb883b7b0321df8a7356c2ceedd318703a573b9d7376f378ac1d2882c99c1fd",
       "png": "fa3bf2192b442467c700451d9a5a229f2d05c3086006c6daaf2c3e5aed904fea",
-      "en.vtt": "2f0c9d11a1bf6c2d26e0abf56a3b8b9f29924560048593bb28f6b14156e002c3",
+      "en.vtt": "496e9dcfa09a62b83e892d006dd080396be659f471f44fb8363deba25f727c68",
       "transcript.txt": "d16865199a5ddd4133cc0705b2f92510d2e21c05d125dd43b1a668cbf735ee95"
     }
   }
