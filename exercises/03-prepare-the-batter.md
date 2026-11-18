@@ -23,7 +23,23 @@ Pour the wet mixture into the dry mixture. Use a spatula to fold from the bottom
 
 **Fold gently until no dry flour remains. A few small lumps are fine.** Do not keep beating just to make it perfectly smooth; extra mixing can make the cake tougher.
 
-An optional visual demonstration is described in [Know when to stop mixing](../resources/video-concepts.md). It is a production concept, not a playable video.
+### Watch the texture
+
+This 20-second AI-generated demonstration illustrates folding and the stopping point. It is not a recording of a tested bake.
+
+<video controls preload="metadata" poster="../assets/prepare-the-batter.png" width="100%">
+  <source src="../assets/prepare-the-batter.mp4" type="video/mp4">
+  <track kind="captions" src="../assets/prepare-the-batter.en.vtt" srclang="en" label="English" default>
+  Your viewer does not support embedded video. Use the links below.
+</video>
+
+[Watch or download the video](../assets/prepare-the-batter.mp4) · [English captions](../assets/prepare-the-batter.en.vtt) · [Poster](../assets/prepare-the-batter.png)
+
+Some Markdown viewers, including GitHub, may strip the player or its caption track. Download the video and caption file together, keeping their matching basenames, and open them in a player that supports WebVTT.
+
+**Transcript:** Fold just until the dry streaks disappears. A few small lumps are fine.
+
+[Video provenance and verification](../resources/video-verification.md).
 
 ## Check your batter
 

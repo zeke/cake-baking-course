@@ -1,6 +1,6 @@
 # Illustrative video concepts
 
-No videos are supplied. These are production briefs for stills and a future short demonstration, not evidence of a test bake. Keep captions outside the bitmap.
+A first generated demonstration is supplied for [Prepare the batter](../exercises/03-prepare-the-batter.md). The other entries remain production concepts. Generated media is illustrative, not evidence of a test bake. Captions are supplied separately from the bitmap.
 
 ## Know when to stop mixing
 
