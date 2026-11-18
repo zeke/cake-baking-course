@@ -1,0 +1,84 @@
+{
+  "description": "AI-generated cake celebration candidates and earlier attempts. Not recordings of real events.",
+  "assets": [
+    {
+      "file": "attempts/brian.jpg",
+      "status": "superseded attempt",
+      "model": "google/nano-banana-2",
+      "prediction": "0x1mpeqeehrmy0d1xz6vkkdsam",
+      "sha256": "0d746686c9574eb575f2243a6fe255f36babf5f452d9193cdf7d653bc8e6caf2"
+    },
+    {
+      "file": "dane-upright.jpg",
+      "status": "candidate",
+      "model": "google/nano-banana-2",
+      "prediction": "1dz26r7935rmt0d1xzb9349x08",
+      "sha256": "58b5b327fc1eba89b57fe9f0a3c6583517b399ccd3144f0aabf2e38d24ff9dfc"
+    },
+    {
+      "file": "brian-upright.jpg",
+      "status": "candidate",
+      "model": "google/nano-banana-2",
+      "prediction": "2t1wzm79rnrmr0d1xzbbqz26c4",
+      "sha256": "73245e67513dc9f4c33301411ee9f3728ec374fa02bcec0b251ae64fca8cb480"
+    },
+    {
+      "file": "attempts/aly.jpg",
+      "status": "superseded attempt",
+      "model": "google/nano-banana-2",
+      "prediction": "8vkybt7cqsrmt0d1xz6vnfg6ng",
+      "sha256": "5b75a45d3d405cc3e2504d385a7fadc1792ff793cdd54746d6ccaf0745bf9eb9"
+    },
+    {
+      "file": "attempts/dane.jpg",
+      "status": "superseded attempt",
+      "model": "google/nano-banana-2",
+      "prediction": "dktryy7c8hrmr0d1xz6ss18p9c",
+      "sha256": "0294bf980f0dcda37efd7b78e697bff2cdb3d79b5a6a60f0db62a8b903007bb4"
+    },
+    {
+      "file": "zeke-upright.jpg",
+      "status": "candidate",
+      "model": "google/nano-banana-2",
+      "prediction": "gewheaq9fxrmy0d1xzbbehcv68",
+      "sha256": "8959ab4abbb4259089d98aee94a503473d15838472a3c4027680a4e03cff5d8e"
+    },
+    {
+      "file": "attempts/zeke.jpg",
+      "status": "superseded attempt",
+      "model": "google/nano-banana-2",
+      "prediction": "k7qjc67basrmw0d1xz6redygq4",
+      "sha256": "3b10dca26c2491f3cd356ee0c71e5868bd5c9454438928fe5edbbfdff4b2778a"
+    },
+    {
+      "file": "aly-upright.jpg",
+      "status": "candidate",
+      "model": "google/nano-banana-2",
+      "prediction": "mtyedezafhrmw0d1xzba1btkg0",
+      "sha256": "c510669d777d0bacc7c022e4b189a5e87eb4535da4fe451fe826f0f754501480"
+    },
+    {
+      "file": "group.jpg",
+      "status": "candidate",
+      "model": "google/nano-banana-2",
+      "prediction": "t7jbw1tbfdrmw0d1xz6r648h58",
+      "sha256": "a75e77168e0f5f9d6dbb8d1b9402236209396cfda36f1445f2956bed01c1ec5a"
+    },
+    {
+      "file": "group-dialogue.mp4",
+      "status": "candidate",
+      "model": "bytedance/omni-human-1.5",
+      "prediction": "x07aa2cccxrmr0d1xz79xezj78",
+      "postprocessing": "none",
+      "sha256": "da18ef7bd1e3f025049b05dbb8c5a0c2e76cbaa625e34ce4b517eb04b01a02f9"
+    },
+    {
+      "file": "group-silent.mp4",
+      "status": "candidate",
+      "model": "kwaivgi/kling-v4-flash",
+      "prediction": "5fqxxnmbjhrmt0d1xz7b83bmw0",
+      "postprocessing": "audio removed",
+      "sha256": "faf620b60b26592d1c4b12a6486f4f135c06fcaaf65181c6a85c7103eb7a809e"
+    }
+  ]
+}
