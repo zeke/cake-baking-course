@@ -11,3 +11,9 @@ Physical actions belong to the learner. Never claim an agent has observed a kitc
 The three authored pop quizzes use an experimental, unmerged proposal pinned by exact commit in README.md. Consult that snapshot as well as canonical main before editing their data. Preserve choice order and stable IDs, keep practice separate from physical completion, and preserve all existing media links.
 
 Keep this file current when course structure or media conventions change. Celebration candidates and superseded attempts live in `assets/celebration/`; keep publication copies free of private source references and embedded generation inputs.
+
+## Authored conversation sections
+
+- Run `script/test` after edits. It uses Node's built-in test runner; no dependency installation, typecheck or linter is configured in this course.
+- Body thematic breaks delimit two conversational sections per exercise. End each with its authored Continue the conversation question, distinct from scored pop quizzes. Keep the matching stable IDs, unscored response branches and video prompts in `resources/sections.json` aligned. This is an experimental course-local convention, not an adopted course-spec extension.
+- Branch introductions may explain a learner-selected concern or pause for unresolved checks. Never interpret an unscored response as a quiz result or automatic proof of physical completion. Keep public course resources free of private source provenance.

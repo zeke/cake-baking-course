@@ -54,6 +54,10 @@ Choose one answer and tell your agent. This is optional practice: you may retry 
 
 {% /pop-quiz %}
 
+Continue the conversation: Are you serving the cake now or preparing it for later, and what did you communicate about ingredients?
+
+---
+
 ## Reflect
 
 Tell your agent whether you served it now or prepared it for later. What did you learn about mixing, and what would you change next time? A dry or dense result is useful evidence, not something to hide; note it before revising this experimental recipe.
@@ -61,3 +65,5 @@ Tell your agent whether you served it now or prepared it for later. What did you
 ## Tidy up
 
 Check the oven is off. Wash bowls, utensils, and counters, and put ingredients away. Follow ingredient and frosting storage instructions for leftovers. Cleanup is encouraged but does not block course completion.
+
+Continue the conversation: What would you change next time, and would you like to tidy up now or leave cleanup for later?

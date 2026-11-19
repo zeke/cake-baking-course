@@ -53,6 +53,10 @@ Choose one answer and tell your agent. This is optional practice: you may retry 
 
 {% /pop-quiz %}
 
+Continue the conversation: What did the center and skewer show when you checked the cake?
+
+---
+
 ## Cool safely
 
 Use dry mitts to place the pan on a heat-safe surface. Turn the oven off. Let the cake rest in the pan for about 10 minutes, then carefully loosen the edge and turn it onto a rack. Remove the parchment. Let it cool completely before frosting; this may take an hour or more.
@@ -60,3 +64,5 @@ Use dry mitts to place the pan on a heat-safe surface. Turn the oven off. Let th
 ## Report what happened
 
 Tell your agent the bake time and what the skewer showed. Note any problems for the test-bake record. The next step waits until the cake is cool to the touch, not merely until a timer ends.
+
+Continue the conversation: What were the bake time and skewer result, and is the cake now completely cool before decorating?

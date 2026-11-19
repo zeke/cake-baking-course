@@ -1,0 +1,257 @@
+{
+  "convention": "Experimental course-only section boundaries and unscored response branches. Markdown thematic breaks separate sections; this is not an adopted course-spec component.",
+  "exercises": {
+    "buy-the-ingredients": [
+      {
+        "id": "equipment",
+        "question": "Which equipment detail would you like to check before gathering the ingredients?",
+        "responses": [
+          {
+            "id": "ready",
+            "label": "My specified pan and conventional oven are ready",
+            "intro": "With your specified pan and conventional oven ready, gather the ingredients and read their allergen labels.",
+            "advance": true
+          },
+          {
+            "id": "paper",
+            "label": "I want to check parchment versus wax paper",
+            "intro": "Use baking parchment, not wax paper, when lining this pan. Keep the parchment with your equipment as you gather the ingredients.",
+            "advance": true
+          },
+          {
+            "id": "different",
+            "label": "My pan or oven differs",
+            "intro": "Pause before starting. Check the course equipment requirements and your oven manual; do not assume a different setup uses the same method.",
+            "advance": false
+          }
+        ]
+      },
+      {
+        "id": "ingredients",
+        "question": "What did you find when checking ingredient labels and equipment, and are you ready to prepare the oven?",
+        "responses": [
+          {
+            "id": "ready",
+            "label": "I checked the labels and have the ingredients and equipment",
+            "intro": "Your ingredient and equipment checks are recorded. Next, prepare the specified oven and pan.",
+            "advance": true
+          },
+          {
+            "id": "missing",
+            "label": "I still have a missing item or an unresolved allergy question",
+            "intro": "Stay with the ingredient list. Resolve missing items and allergy questions before proceeding; this draft has not tested substitutions.",
+            "advance": false
+          }
+        ],
+        "videoPrompt": "As the ingredient demonstration ends, which label or equipment check do you still need before preparing the oven?"
+      }
+    ],
+    "preheat-the-oven": [
+      {
+        "id": "oven-and-pan",
+        "question": "What will you check to decide whether the oven and pan are ready for batter?",
+        "responses": [
+          {
+            "id": "indicator",
+            "label": "I will check the ready indicator and prepared pan",
+            "intro": "Check the preheated indicator and that the specified pan is greased and lined. Keep the workspace clear while you confirm readiness.",
+            "advance": true
+          },
+          {
+            "id": "thermometer",
+            "label": "I also have an oven thermometer",
+            "intro": "Use the preheated indicator and your oven thermometer as you check readiness. Confirm the conventional setting and prepared pan too.",
+            "advance": true
+          }
+        ],
+        "videoPrompt": "As the oven demonstration ends, what will you check on the oven and prepared pan before mixing?"
+      },
+      {
+        "id": "readiness",
+        "question": "Is the conventional oven at the specified setting with its ready indicator on, and is your pan prepared?",
+        "responses": [
+          {
+            "id": "ready",
+            "label": "The oven and pan are ready",
+            "intro": "With the oven and pan ready, measure the dry and wet ingredients for the batter.",
+            "advance": true
+          },
+          {
+            "id": "warming",
+            "label": "The oven is still warming or my pan is not ready",
+            "intro": "Wait for the ready indicator and finish preparing the specified pan. Keep this check open before mixing.",
+            "advance": false
+          }
+        ]
+      }
+    ],
+    "prepare-the-batter": [
+      {
+        "id": "mixing",
+        "question": "What do you see after gently folding and scraping the sides and bottom of the bowl?",
+        "responses": [
+          {
+            "id": "lumps",
+            "label": "No dry flour remains, but there are a few small lumps",
+            "intro": "A few small lumps are acceptable. In the next check, look for hidden dry flour rather than mixing for perfect smoothness.",
+            "advance": true
+          },
+          {
+            "id": "dry",
+            "label": "I can still see dry flour",
+            "intro": "Fold a few more times and scrape the sides and bottom, then look again. Do not move on while dry flour pockets remain.",
+            "advance": false
+          },
+          {
+            "id": "unsure",
+            "label": "I want to understand why small lumps are acceptable",
+            "intro": "Extra mixing can make the cake tougher. Check for dry flour pockets, rather than beating out every small lump, in the final batter check.",
+            "advance": true
+          }
+        ],
+        "videoPrompt": "As the folding demonstration ends, do you see dry flour or only small lumps, and what will you check next?"
+      },
+      {
+        "id": "batter-check",
+        "question": "After scraping the bowl, is your batter incorporated with no dry flour remaining and ready to go straight into the pan?",
+        "responses": [
+          {
+            "id": "ready",
+            "label": "I checked and my batter is ready",
+            "intro": "Your batter check is recorded. Pour it into the prepared pan and begin the baking step.",
+            "advance": true
+          },
+          {
+            "id": "problem",
+            "label": "The batter still seems dry or separated",
+            "intro": "Pause and review what you added. Keep this chapter open until the batter check is resolved.",
+            "advance": false
+          }
+        ]
+      }
+    ],
+    "bake-the-cake": [
+      {
+        "id": "doneness",
+        "question": "What did the center and skewer show when you checked the cake?",
+        "responses": [
+          {
+            "id": "set",
+            "label": "The center is set and the skewer has no wet batter",
+            "intro": "Your reported doneness check leads into safe removal and cooling. Use dry mitts and the heat-safe landing spot.",
+            "advance": true
+          },
+          {
+            "id": "wet",
+            "label": "The skewer still has wet batter",
+            "intro": "Bake another 3–5 minutes and check again as the draft describes. The timer and top color do not establish doneness.",
+            "advance": false
+          }
+        ],
+        "videoPrompt": "As the baking demonstration ends, what will the center and skewer need to show before you begin cooling?"
+      },
+      {
+        "id": "cooling",
+        "question": "What were the bake time and skewer result, and is the cake now completely cool before decorating?",
+        "responses": [
+          {
+            "id": "cool",
+            "label": "I reported the result and the cake is completely cool",
+            "intro": "With the cake completely cool, choose your frosting finish and read its label.",
+            "advance": true
+          },
+          {
+            "id": "warm",
+            "label": "The cake is still warm",
+            "intro": "Wait until the cake is completely cool. Keep this chapter open rather than frosting a warm cake.",
+            "advance": false
+          }
+        ]
+      }
+    ],
+    "decorate-the-cake": [
+      {
+        "id": "finish",
+        "question": "Which finish did you choose, and what made it work for your cooled cake?",
+        "responses": [
+          {
+            "id": "swirls",
+            "label": "I chose a few swirls",
+            "intro": "Describe the swirls and how you spread the frosting gently. Include that choice in your result.",
+            "advance": true
+          },
+          {
+            "id": "sprinkles",
+            "label": "I chose a sprinkle border",
+            "intro": "Describe your sprinkle border and check its label along with the frosting before sharing your result.",
+            "advance": true
+          },
+          {
+            "id": "smooth",
+            "label": "I kept a simple smooth top",
+            "intro": "Describe the simple finish and how you spread it without tearing the cake. A photo is optional.",
+            "advance": true
+          }
+        ],
+        "videoPrompt": "As the decorating demonstration ends, which finish would you choose and what label checks go with it?"
+      },
+      {
+        "id": "result",
+        "question": "How would you describe your finished decoration and its label-based storage needs before serving?",
+        "responses": [
+          {
+            "id": "ready",
+            "label": "I described my finish and checked storage instructions",
+            "intro": "Your decoration and storage checks lead into asking guests about allergies before serving.",
+            "advance": true
+          },
+          {
+            "id": "labels",
+            "label": "I still need to check a frosting or decoration label",
+            "intro": "Read the frosting and decoration labels before continuing to serving.",
+            "advance": false
+          }
+        ]
+      }
+    ],
+    "serve-to-guests": [
+      {
+        "id": "serving",
+        "question": "Are you serving the cake now or preparing it for later, and what did you communicate about ingredients?",
+        "responses": [
+          {
+            "id": "now",
+            "label": "I served it with the ingredient and allergy information",
+            "intro": "Since you served it now, reflect on what you observed and what you would change for the next bake.",
+            "advance": true
+          },
+          {
+            "id": "later",
+            "label": "I prepared it for later and checked the storage label",
+            "intro": "Since you are serving later, keep following the frosting label for storage. Reflect on mixing and preparation without assuming guests have eaten it.",
+            "advance": true
+          }
+        ],
+        "videoPrompt": "As the serving demonstration ends, what allergy information will you share and are you serving now or later?"
+      },
+      {
+        "id": "reflection",
+        "question": "What would you change next time, and would you like to tidy up now or leave cleanup for later?",
+        "responses": [
+          {
+            "id": "tidy",
+            "label": "I have a reflection and will tidy up now",
+            "intro": "Your reflection and reported serving checks are recorded. Check the oven is off and follow the cleanup and storage notes.",
+            "advance": true
+          },
+          {
+            "id": "later",
+            "label": "I have a reflection and will tidy up later",
+            "intro": "Your reflection and reported serving checks are recorded. Cleanup remains optional; keep the oven off and follow storage instructions.",
+            "advance": true
+          }
+        ]
+      }
+    ]
+  }
+}

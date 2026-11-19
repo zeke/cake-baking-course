@@ -35,6 +35,12 @@ This 20-second AI-generated illustration supports the technique above; it is not
 
 Some Markdown viewers may strip the player or caption track. Download the video and matching caption file together for a WebVTT-capable player. [Media verification notes](../resources/video-verification.md).
 
+Continue the conversation: Which finish did you choose, and what made it work for your cooled cake?
+
+---
+
 ## Share your result
 
 Describe your finish to your agent, or optionally share a photo. A photo is not required. Explain one choice you made. Keep the cake stored according to the frosting label until serving.
+
+Continue the conversation: How would you describe your finished decoration and its label-based storage needs before serving?

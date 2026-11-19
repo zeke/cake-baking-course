@@ -62,8 +62,14 @@ Choose one answer and tell your agent. This is optional practice: you may retry 
 
 {% /pop-quiz %}
 
+Continue the conversation: What do you see after gently folding and scraping the sides and bottom of the bowl?
+
+---
+
 ## Check your batter
 
 Scrape the bottom once more. Look for dry flour pockets. If you see any, fold a few more times and check again. Do not taste raw batter. Wash hands and tools that touched raw eggs or flour.
 
 Tell your agent what you see or say **“My batter is ready.”** If it seems unusually dry or separated, pause and review what you added. Keep this step active until you have checked it. Once ready, proceed directly to baking.
+
+Continue the conversation: After scraping the bowl, is your batter incorporated with no dry flour remaining and ready to go straight into the pan?

@@ -35,6 +35,12 @@ Some Markdown viewers may strip the player or caption track. Download the video 
 
 Put dry oven mitts and a heat-safe landing spot nearby. Keep towels and packaging away from the oven. Wash your hands and clear the counter.
 
+Continue the conversation: What will you check to decide whether the oven and pan are ready for batter?
+
+---
+
 ## Check readiness
 
 Wait for the oven's preheated indicator. If you have an oven thermometer, check it too. Tell your agent the temperature, oven setting, and whether the pan is ready. Keep the oven on while you mix the batter.
+
+Continue the conversation: Is the conventional oven at the specified setting with its ready indicator on, and is your pan prepared?

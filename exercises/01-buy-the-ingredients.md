@@ -11,6 +11,10 @@ agent-instructions: |
 
 Use a 20 cm (8 inch) round cake pan at least 5 cm (2 inches) deep, parchment, kitchen scales, two mixing bowls, a whisk, a flexible spatula, a skewer, dry oven mitts, and a cooling rack. Check that your oven can use a conventional (non-fan) setting.
 
+Continue the conversation: Which equipment detail would you like to check before gathering the ingredients?
+
+---
+
 ## Gather the cake ingredients
 
 For one cake, about eight slices:
@@ -48,3 +52,5 @@ Some Markdown viewers may strip the player or caption track. Download the video 
 Check that the baking powder is within date. Read labels for wheat, eggs, milk, and any additional allergens. Tell your agent about missing equipment or dietary requirements before substituting anything. This draft recipe has not been tested with substitutions.
 
 Tell your agent when you have everything. You can gather items you already own rather than buying duplicates.
+
+Continue the conversation: What did you find when checking ingredient labels and equipment, and are you ready to prepare the oven?

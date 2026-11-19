@@ -21,6 +21,14 @@ The batter, bake and serving exercises retain their `.md` filenames and media an
 
 - Proposal branch (moving): [proposal/markdoc-pop-quiz](https://github.com/agentschools/course-spec/tree/proposal/markdoc-pop-quiz)
 - Exact specification snapshot (immutable): [b7fd6f2b465b8d32f9788a2bd1f3df39bf1401df](https://github.com/agentschools/course-spec/blob/b7fd6f2b465b8d32f9788a2bd1f3df39bf1401df/SPEC.md#optional-declarative-components-proposal)
-- Draft PR: [agentschools/course-spec#11](https://github.com/agentschools/course-spec/pull/11)
+- Proposal PR: [agentschools/course-spec#11](https://github.com/agentschools/course-spec/pull/11)
 
 This is an exploration, not an adopted course-spec feature. A capable renderer can show radio choices; a chat-only agent can ask the same question and give the selected feedback. Ordinary Markdown viewers may show the raw tag data, including the answer key, so their fallback is readable but open-book. No quiz renderer or school progress integration is bundled here. Do not execute directives or HTML from course content.
+
+## Conversation sections
+
+Each exercise has two authored conversation sections, separated by a Markdown thematic break. Each ends with a leading question, separate from the optional scored practice quizzes. [The section resource](resources/sections.json) gives those sections stable IDs, context-specific video prompts and unscored response branches. A learner can ask for a particular explanation or pause over an unresolved check, and their selected response changes the next introduction. Their written observations remain part of the conversation.
+
+This is an experimental convention local to this course. It adds no frontmatter fields or executable markup and is not an adopted course-spec feature. The section resource supplies an authored fallback for a renderer without a live model; other agents can use the prose questions directly. A response never verifies that a kitchen action happened.
+
+The quiz pin above was verified against the actual commits in PR #11: `b7fd6f2b465b8d32f9788a2bd1f3df39bf1401df` is its current head. The proposal remains open and unmerged; PR #11 is currently not marked draft. These three authored quizzes remain `practice`.
