@@ -17,7 +17,7 @@ The recipe is an original, untested teaching example, not a kitchen-tested recip
 
 ## Experimental quiz proposal
 
-The batter, bake and serving exercises retain their `.md` filenames and media and include optional single-answer Markdoc pop quizzes with 3, 4 and 5 choices. Their correct choices are second, third and first respectively. All are practice questions, not automatic progress or proof of physical completion. The proposal uses `practice` (default) and `required` modes; these examples remain optional `practice`.
+The preheat, batter, bake and serving exercises retain their `.md` filenames and media and include optional single-answer Markdoc pop quizzes with 2, 3, 4 and 5 choices. Their correct choices are second, second, third and first respectively. The two-choice question uses concise True/False statements and per-choice feedback in the same single-answer format. All are practice questions, not automatic progress or proof of physical completion. The proposal uses `practice` (default) and `required` modes; these examples remain optional `practice`.
 
 - Proposal branch (moving): [proposal/markdoc-pop-quiz](https://github.com/agentschools/course-spec/tree/proposal/markdoc-pop-quiz)
 - Exact specification snapshot (immutable): [b7fd6f2b465b8d32f9788a2bd1f3df39bf1401df](https://github.com/agentschools/course-spec/blob/b7fd6f2b465b8d32f9788a2bd1f3df39bf1401df/SPEC.md#optional-declarative-components-proposal)
@@ -31,4 +31,4 @@ Each exercise has two authored conversation sections, separated by a Markdown th
 
 This is an experimental convention local to this course. It adds no frontmatter fields or executable markup and is not an adopted course-spec feature. The section resource supplies an authored fallback for a renderer without a live model; other agents can use the prose questions directly. A response never verifies that a kitchen action happened.
 
-The quiz pin above was verified against the actual commits in PR #11: `b7fd6f2b465b8d32f9788a2bd1f3df39bf1401df` is its current head. The proposal remains open and unmerged; PR #11 is currently not marked draft. These three authored quizzes remain `practice`.
+The quiz pin above was verified against the actual commits in PR #11: `b7fd6f2b465b8d32f9788a2bd1f3df39bf1401df` is its current head. The proposal remains open and unmerged; PR #11 is currently not marked draft. These four authored quizzes remain `practice`.

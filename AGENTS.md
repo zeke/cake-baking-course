@@ -8,7 +8,7 @@ The initial format review used course-spec commit `c06dfd70a2f469d6ce0e1d023ad73
 
 Physical actions belong to the learner. Never claim an agent has observed a kitchen action or verified food safety from a chat answer. Report evidence honestly. A quiz is a knowledge check, not proof that baking happened. Keep quantities, pan size, temperature, and timing consistent across lessons. Preserve the recipe's untested status until a real test bake is documented.
 
-The three authored pop quizzes use an experimental, unmerged proposal pinned by exact commit in README.md. Consult that snapshot as well as canonical main before editing their data. Preserve choice order and stable IDs, keep practice separate from physical completion, and preserve all existing media links.
+The four authored pop quizzes use an experimental, unmerged proposal pinned by exact commit in README.md. Consult that snapshot as well as canonical main before editing their data. True/False uses the same two-choice format, with self-contained statements prefixed True or False. Preserve choice order and stable IDs, keep practice separate from physical completion, and preserve all existing media links.
 
 Keep this file current when course structure or media conventions change. Celebration candidates and superseded attempts live in `assets/celebration/`; keep publication copies free of private source references and embedded generation inputs.
 
