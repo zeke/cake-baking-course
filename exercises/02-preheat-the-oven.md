@@ -40,7 +40,7 @@ Put dry oven mitts and a heat-safe landing spot nearby. Keep towels and packagin
 {% pop-quiz
   id="pan-lining"
   question="Can wax paper replace baking parchment?"
-  choices=[{"id": "wax-paper", "label": "True: wax paper can line the baking pan.", "feedback": "Use baking parchment, not wax paper, to line this pan. Check the packaging before lining it."}, {"id": "baking-parchment", "label": "False: use baking parchment, not wax paper.", "feedback": "Correct. Use baking parchment for this pan. Check its packaging, then lightly grease the pan and parchment as described above."}]
+  choices=[{"id": "wax-paper", "label": "True: wax paper can line the baking pan.", "feedback": "Use baking parchment, not wax paper, to line this pan. Check the packaging before lining it."}, {"id": "baking-parchment", "label": "False: use baking parchment, not wax paper.", "feedback": "Use baking parchment for this pan. Check its packaging, then lightly grease the pan and parchment as described above."}]
   answer="baking-parchment"
   mode="practice"
 %}
