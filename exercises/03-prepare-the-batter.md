@@ -44,23 +44,14 @@ Some Markdown viewers, including GitHub, may strip the player or its caption tra
 
 ### Pop quiz
 
-{% pop-quiz
-  id="batter-stop-mixing"
-  question="When should you stop mixing?"
-  choices=[{"id": "perfectly-smooth", "label": "When the batter is perfectly smooth", "feedback": "A few small lumps are fine. Extra mixing can make the cake tougher; look for dry flour instead of perfect smoothness."}, {"id": "no-dry-flour", "label": "When no dry flour remains", "feedback": "Correct! Exactly, a few small lumps are fine. Extra mixing can make the cake tougher. Pour wet into dry, fold from the bottom over the top, and turn the bowl as you go. How does your batter look now?"}, {"id": "five-more-minutes", "label": "After five more minutes", "feedback": "Use the batter as your guide, not a fixed mixing time. Stop once no dry flour remains after checking the sides and bottom."}]
-  answer="no-dry-flour"
-  mode="practice"
-%}
-
-**Pop quiz: When should you stop mixing?**
-
-1. When the batter is perfectly smooth
-2. When no dry flour remains
-3. After five more minutes
-
-Choose one answer and tell your agent. This is optional practice: you may retry or skip it. A correct answer does not complete the exercise or verify a kitchen action.
-
-{% /pop-quiz %}
+<fieldset data-course="quiz" id="batter-stop-mixing" data-answer="no-dry-flour">
+  <legend>When should you stop mixing?</legend>
+  <ol>
+    <li data-id="perfectly-smooth" data-feedback="A few small lumps are fine. Extra mixing can make the cake tougher; look for dry flour instead of perfect smoothness.">When the batter is perfectly smooth</li>
+    <li data-id="no-dry-flour" data-feedback="Correct! Exactly, a few small lumps are fine. Extra mixing can make the cake tougher. Pour wet into dry, fold from the bottom over the top, and turn the bowl as you go. How does your batter look now?">When no dry flour remains</li>
+    <li data-id="five-more-minutes" data-feedback="Use the batter as your guide, not a fixed mixing time. Stop once no dry flour remains after checking the sides and bottom.">After five more minutes</li>
+  </ol>
+</fieldset>
 
 Continue the conversation: What do you see after gently folding and scraping the sides and bottom of the bowl?
 

@@ -2,3 +2,5 @@
 set -eu
 cd "$(dirname "$0")/.."
 node --test
+python3 script/lint-html.py
+python3 script/test-html.py

@@ -7,6 +7,11 @@ agent-instructions: |
 
 # Buy the ingredients
 
+<fieldset data-course="question" id="ingredients-on-hand">
+  <legend>Which ingredients do you already have?</legend>
+  <p>Check your cupboards before making a shopping list.</p>
+</fieldset>
+
 ## Check your equipment
 
 Use a 20 cm (8 inch) round cake pan at least 5 cm (2 inches) deep, parchment, kitchen scales, two mixing bowls, a whisk, a flexible spatula, a skewer, dry oven mitts, and a cooling rack. Check that your oven can use a conventional (non-fan) setting.

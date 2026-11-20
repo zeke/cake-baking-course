@@ -34,24 +34,15 @@ Some Markdown viewers may strip the player or caption track. Download the video 
 
 ### Pop quiz
 
-{% pop-quiz
-  id="bake-readiness"
-  question="How do you know the cake is ready?"
-  choices=[{"id": "timer-rang", "label": "The timer rang", "feedback": "The timer tells you when to check, not whether the cake is done. Check the center and test with a skewer."}, {"id": "golden-top", "label": "The top looks golden", "feedback": "Color alone does not tell you whether the center is baked. Check the center and use a skewer."}, {"id": "center-set-skewer-clean", "label": "The center is set and a skewer comes out clean.", "feedback": "Correct! Exactly. A few moist crumbs are fine. If the skewer has wet batter, give it another 3–5 minutes and check again."}, {"id": "risen-above-pan", "label": "The cake has risen above the edge of the pan", "feedback": "Height is not a doneness test. Look for a set center and a skewer without wet batter."}]
-  answer="center-set-skewer-clean"
-  mode="practice"
-%}
-
-**Pop quiz: How do you know the cake is ready?**
-
-1. The timer rang
-2. The top looks golden
-3. The center is set and a skewer comes out clean.
-4. The cake has risen above the edge of the pan
-
-Choose one answer and tell your agent. This is optional practice: you may retry or skip it. A correct answer does not complete the exercise or verify a kitchen action.
-
-{% /pop-quiz %}
+<fieldset data-course="quiz" id="bake-readiness" data-answer="center-set-skewer-clean">
+  <legend>How do you know the cake is ready?</legend>
+  <ol>
+    <li data-id="timer-rang" data-feedback="The timer tells you when to check, not whether the cake is done. Check the center and test with a skewer.">The timer rang</li>
+    <li data-id="golden-top" data-feedback="Color alone does not tell you whether the center is baked. Check the center and use a skewer.">The top looks golden</li>
+    <li data-id="center-set-skewer-clean" data-feedback="Correct! Exactly. A few moist crumbs are fine. If the skewer has wet batter, give it another 3–5 minutes and check again.">The center is set and a skewer comes out clean.</li>
+    <li data-id="risen-above-pan" data-feedback="Height is not a doneness test. Look for a set center and a skewer without wet batter.">The cake has risen above the edge of the pan</li>
+  </ol>
+</fieldset>
 
 Continue the conversation: What did the center and skewer show when you checked the cake?
 

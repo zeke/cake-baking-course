@@ -35,33 +35,12 @@ test('every explicit section ends in its authored, unscored leading question', (
   }
 });
 
-test('preserves optional single-answer quizzes, media and physical checks', () => {
-  let quizzes = 0;
-  const ids = [];
+test('preserves media and physical checks', () => {
   for (const file of exercises) {
     const markdown = readFileSync(new URL(`../exercises/${file}`, import.meta.url), 'utf8');
     assert.match(markdown, /agent-instructions:/);
-    for (const match of markdown.matchAll(/\{% pop-quiz\s+([\s\S]*?)%\}/g)) {
-      quizzes += 1;
-      ids.push(match[1].match(/id="([^"]+)"/)[1]);
-      assert.match(match[1], /mode="practice"/);
-      assert.doesNotMatch(match[1], /mode="required"/);
-      const choices = JSON.parse(match[1].match(/choices=(\[[^\n]+\])/)[1]);
-      const answer = match[1].match(/answer="([^"]+)"/)[1];
-      assert.equal(choices.filter(choice => choice.id === answer).length, 1);
-    }
     for (const match of markdown.matchAll(/(?:src|poster)="\.\.\/([^"<>]+)"/g)) {
       assert.ok(existsSync(new URL(`../${match[1]}`, import.meta.url)));
     }
   }
-  assert.equal(quizzes, 4);
-  assert.deepEqual(ids, ['pan-lining', 'batter-stop-mixing', 'bake-readiness', 'serve-allergies']);
-  const preheat = readFileSync(new URL('../exercises/02-preheat-the-oven.md', import.meta.url), 'utf8');
-  const choices = JSON.parse(preheat.match(/choices=(\[[^\n]+\])/)[1]);
-  assert.deepEqual(choices.map(choice => choice.label), [
-    'True: wax paper can line the baking pan.',
-    'False: use baking parchment, not wax paper.',
-  ]);
-  for (const choice of choices) assert.ok(choice.feedback.includes('parchment'));
-  assert.match(readFileSync(new URL('../README.md', import.meta.url), 'utf8'), /b7fd6f2b465b8d32f9788a2bd1f3df39bf1401df/);
 });

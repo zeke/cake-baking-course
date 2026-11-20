@@ -39,6 +39,16 @@ Continue the conversation: Which finish did you choose, and what made it work fo
 
 ---
 
+<fieldset data-course="matching" id="decoration-decisions">
+  <legend>Match each situation to the next step.</legend>
+  <dl>
+    <dt data-id="warm" data-match="wait">The cake still feels warm.</dt>
+    <dd data-id="wait">Let it cool before decorating.</dd>
+    <dt data-id="cool" data-match="frost">The cake is completely cool.</dt>
+    <dd data-id="frost">Spread a thin layer of frosting.</dd>
+  </dl>
+</fieldset>
+
 ## Share your result
 
 Describe your finish to your agent, or optionally share a photo. A photo is not required. Explain one choice you made. Keep the cake stored according to the frosting label until serving.

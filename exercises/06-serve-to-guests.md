@@ -34,29 +34,30 @@ Some Markdown viewers may strip the player or caption track. Download the video 
 
 ### Pop quiz
 
-{% pop-quiz
-  id="serve-allergies"
-  question="What should you check before serving?"
-  choices=[{"id": "allergies-and-labels", "label": "Guests’ allergies and all ingredient labels", "feedback": "Correct! Check guests’ allergies and every ingredient label, including frosting and decorations. If you cannot confirm an ingredient is safe for a guest, do not promise it is."}, {"id": "nuts-only", "label": "Only whether the cake contains nuts", "feedback": "Nuts are not the only allergen. This cake contains wheat, eggs and milk, and the frosting or decorations may contain others."}, {"id": "small-slice-for-everyone", "label": "Nothing, everyone can have a small slice", "feedback": "A small portion is not an allergy safeguard. Check guests’ allergies and all ingredient labels first."}, {"id": "frosting-looks-fresh", "label": "Only whether the frosting looks fresh", "feedback": "Appearance does not identify allergens. Read all ingredient labels and check guests’ allergies."}, {"id": "eaten-cake-before", "label": "Whether guests have eaten cake before", "feedback": "Previous experience with cake does not tell you whether these ingredients are safe for a guest. Check allergies and labels."}]
-  answer="allergies-and-labels"
-  mode="practice"
-%}
-
-**Pop quiz: What should you check before serving?**
-
-1. Guests’ allergies and all ingredient labels
-2. Only whether the cake contains nuts
-3. Nothing, everyone can have a small slice
-4. Only whether the frosting looks fresh
-5. Whether guests have eaten cake before
-
-Choose one answer and tell your agent. This is optional practice: you may retry or skip it. A correct answer does not complete the exercise or verify a kitchen action.
-
-{% /pop-quiz %}
+<fieldset data-course="quiz" id="serve-allergies" data-answer="allergies-and-labels">
+  <legend>What should you check before serving?</legend>
+  <ol>
+    <li data-id="allergies-and-labels" data-feedback="Correct! Check guests’ allergies and every ingredient label, including frosting and decorations. If you cannot confirm an ingredient is safe for a guest, do not promise it is.">Guests’ allergies and all ingredient labels</li>
+    <li data-id="nuts-only" data-feedback="Nuts are not the only allergen. This cake contains wheat, eggs and milk, and the frosting or decorations may contain others.">Only whether the cake contains nuts</li>
+    <li data-id="small-slice-for-everyone" data-feedback="A small portion is not an allergy safeguard. Check guests’ allergies and all ingredient labels first.">Nothing, everyone can have a small slice</li>
+    <li data-id="frosting-looks-fresh" data-feedback="Appearance does not identify allergens. Read all ingredient labels and check guests’ allergies.">Only whether the frosting looks fresh</li>
+    <li data-id="eaten-cake-before" data-feedback="Previous experience with cake does not tell you whether these ingredients are safe for a guest. Check allergies and labels.">Whether guests have eaten cake before</li>
+  </ol>
+</fieldset>
 
 Continue the conversation: Are you serving the cake now or preparing it for later, and what did you communicate about ingredients?
 
 ---
+
+<fieldset data-course="teach-back" id="bake-again">
+  <legend>Imagine you're baking this cake again. Talk a friend through mixing, checking doneness and serving it.</legend>
+  <p>Use your own words. Explain what you would look for and why.</p>
+  <ol>
+    <li>Stops folding when no dry flour remains; accepts small lumps.</li>
+    <li>Checks the center and skewer rather than relying on the timer.</li>
+    <li>Lets the cake cool before frosting and checks guests' allergies.</li>
+  </ol>
+</fieldset>
 
 ## Reflect
 
